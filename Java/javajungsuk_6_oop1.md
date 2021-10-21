@@ -1,11 +1,11 @@
 # 객체지향 프로그래밍1
 > '자바의정석 기초편 - 남궁성' 6장학습 
->> 1. [객체지향언어란?](https://github.com/suny1113/TIL/new/main#1%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%96%B8%EC%96%B4)
->> 2. [클래스와 객체](https://github.com/suny1113/TIL/new/main#2%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80-%EA%B0%9D%EC%B2%B4)
->> 3. [객체배열](https://github.com/suny1113/TIL/new/main#3-%EA%B0%9D%EC%B2%B4%EB%B0%B0%EC%97%B4)
->> 4. [선언위치에 따른 변수의 종류, 특징](https://github.com/suny1113/TIL/new/main#4-%EC%84%A0%EC%96%B8%EC%9C%84%EC%B9%98%EC%97%90-%EB%94%B0%EB%A5%B8-%EB%B3%80%EC%88%98%EC%9D%98-%EC%A2%85%EB%A5%98-%ED%8A%B9%EC%A7%95)
->> 5. [메서드](https://github.com/suny1113/TIL/new/main#%EB%A9%94%EC%84%9C%EB%93%9C)
->> 6. [call stack, call by value, call by reference]()
+>> 1. 객체지향언어란?
+>> 2. 클래스와 객체
+>> 3. 객체배열
+>> 4. 선언위치에 따른 변수의 종류, 특징
+>> 5. 메서드
+>> 6. call stack, call by value, call by reference
 >> 
 
 
