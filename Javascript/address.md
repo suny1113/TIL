@@ -36,7 +36,23 @@
 - jibunAddress : 지번주소(구주소)
 
 ## 예제 실행 화면
-![post1](./Js_image/post1.png)
+<img src = "./Js_image/post.png" width="400" height="200" />
+
+우편번호 찾기 버튼 클릭하면 
+
+<img src="./Js_image/post1.png" width="400" height="400" />
+
+다음과 같은 화면이 나온다.
+
+<img src="./Js_image/post2.png" width="400" height="400" />
+
+도로명주소 클릭 또는 지번주소 클릭
+
+<img src="./Js_image/post3.png" width="400" height="200" />
+
+결과화면
+
+
 
 
 
