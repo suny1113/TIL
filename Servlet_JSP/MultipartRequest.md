@@ -32,7 +32,7 @@ MultipartRequest(javax.servlet.http.HttpServletRequest request,
 1. 보낼려는 파일이 있는 form 태그에서 전송방식이 POST 방식이여야 한다.
 2. 그 다음 enctype 속성을 설정해준다. `enctype='multipart/form-data'`
 
-![multi01](./nulti01.png)
+![multi01](./images/multi01.png)
 
 3. 위의 요청을 처리하는 JSP파일에서 MultipartRequest 객체를 생성한다.
   - 파일이 실질적으로 저장될 경로를 구해준다.(디렉토리 경로)
