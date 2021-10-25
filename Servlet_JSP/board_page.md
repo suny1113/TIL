@@ -1,7 +1,7 @@
 # 게시판 페이지 
 - 게시판을 만드는 과정에서 게시물 목록들을 일정한 갯수대로 나열하고 페이지를 이동시키는 방법
 
-![board1](./images/board1.png)
+![board1](./images/board01.png)
 - 일단 목표로 하는 게시판의 화면이다.
 - 총 게시글 수와 한 페이지에 나열할 게시글의 수, 총 몇 페이지로 나누어야 할지를 정해야 한다.
 
@@ -65,5 +65,14 @@ WHERE RN >= 시작번호;
 
 - ROWNUM의 RN을 별칭으로 지정해주었다.
 
+## 맨 아래의 페이지 번호
+- for문을 총 페이지개수까지 돌리면 구할 수 있다.
+```java
+for (int i = 1; i <= totalPage; i++){
+	//...		
+}
+```
 
-## 자세한 코드는 다음 링크를 참고
+
+## 게시판의 자세한 코드는 다음 링크를 참고
+<https://github.com/suny1113/study-code/tree/main/Servlet_JSP/src/main/webapp/board>
