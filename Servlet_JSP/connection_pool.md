@@ -96,6 +96,8 @@ public class EmpDAO {
 ```
 - 쿼리문을 실행하고 난 후 Connection 자원을 꼭 반납해주는 것을 잊지말자.
 
+## 참고할 코드
+<https://github.com/suny1113/study-code/blob/main/Servlet_JSP/src/main/java/dao/EmpDAO.java>
 
 
 
