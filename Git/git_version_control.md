@@ -3,7 +3,6 @@
 - 깃에서 버전은 수정하고 저장할때마다 생기는 것
 
 ## Stage와 Commit
-![git01](./images/git01.png)
 
 - 작업트리 : 파일 수정, 저장등의 작업 수행하는 디렉터리
 - 스테이지 : 버전으로 만들 파일이 대기하는 곳
@@ -14,7 +13,6 @@
 - untracked : 추적되고있지않는, 이전에 버전관리(커밋)을 한번도 하지 않은 파일을 가리킨다.
 
 ## unmodified, modified, staged 상태
-![git02](./images/git02.png)
 
 - unmodified : 파일이 수정되지 않은상태
 - modified : 파일이 수정된 상태
