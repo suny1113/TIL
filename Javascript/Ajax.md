@@ -110,8 +110,8 @@
               type : "GET",
               async : true,
               url : "전송할 url",
-              dataType : "html"  // 전송받을 데이터, html, XML, JSON
-              data  : {"name값" : value값}
+              dataType : "html",  // 전송받을 데이터, html, XML, JSON
+              data  : {"name값" : value값},
               success : function(response, status, request){
                   // 전송 성공시에 처리할 코드
               },
