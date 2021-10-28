@@ -99,4 +99,30 @@
 #### ●onreadystatechange
 - XMLHttpRequest객체의 readyState속성값이 바뀔때마다 자동으로 호출되는 함수
 
+## jQuery 이용한 Ajax (img 태그 이용)
+
+```javascript
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> // cdn
+<script>
+    $(function(){
+      $("img").on("click", function(){
+            $.ajax({
+              type : "GET",
+              async : true,
+              url : "전송할 url",
+              dataType : "html"  // 전송받을 데이터, html, XML, JSON
+              data  : {"name값" : value값}
+              success : function(response, status, request){
+                  // 전송 성공시에 처리할 코드
+              },
+              error : function(response, status, request){
+                  // 에러 발생할때 처리할 코드 
+               }
+              
+            }) // JSON타입
+      }
+    
+    })
+</script>
+```
 
