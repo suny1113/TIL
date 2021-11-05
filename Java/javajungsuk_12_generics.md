@@ -60,4 +60,37 @@ class ProductBox<T extends Product & producible>{}
 ```
 - 특정 클래스의 자손이면서 특정 인터페이스를 구현해야 한다면 & 기호로 연결해준다.
 
+### 지네릭스의 제약
+- static 맴버는 모든 객체에 동일하게 동작해야 하기 때문에 타입변수를 사용할 수 없다.
+- 배열을 생성할 수 없다.
   
+### 와일드카드
+- 지네릭 타입은 참조변수에 지정된것과 생성자의 지정된 것은 항상 동일해야 한다.
+- 지네릭 타입에서 다형성을 적용하려면 지네릭 타입으로 '와일드 카드'를 사용한다.
+- 기호는 ?를 사용하며 'extends'와 'super'로 상한과 하한을 제한한다.
+
+|타입|설명|
+|---|---|
+|<? extends T>|상한 제한, T와 그 자손들만 가능|
+|<? super T>|하한 제한, T와 그 조상들만 가능|
+|<?>|제한 없음, 모든타입이 가능|
+  
+### 와일드카드 예시
+```java
+class Product{};
+class Tv extends Product{};
+class Radio extends Product{};
+class Audio extends Product{};
+
+public class Generics {
+	public static void main(String[] args) {
+		ArrayList<? extends Product> list = new ArrayList<Radio>();
+		ArrayList<? super Tv> list2 = new ArrayList<Product>();
+	}
+}  
+```
+
+### 지네릭메서드
+- 메서드의 선언부에(반환타입 앞) 지네릭 타입 선언
+- 클래스의 지네릭타입과 메서드의 지네릭타입은 별개의 것이다.
+
