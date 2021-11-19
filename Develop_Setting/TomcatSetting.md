@@ -1,4 +1,4 @@
-# JSP 개발환경 구축하기
+# Tomcat서버 Eclipse에 설정하기
 
 **jdk와 eclipse가 다운로드 되어 있다고 가정하고 Tomcat만 설치하는 과정을 설명**
  
