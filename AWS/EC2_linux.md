@@ -49,7 +49,7 @@
 3. save private key로 저장
 
 ### 4. putty.exe 를 실행
-![putty03](./images/putty03.png)
+![putty03](./images/putty0303.png)
 
 1. Host Name은 ubuntu@각자 aws의 public DNS 주소를 적는다.
 2. Port는 22번으로 한다
