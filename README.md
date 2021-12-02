@@ -44,7 +44,7 @@
 
 ## 개발환경설정
 - [lombok.jar파일](Develop_Setting/lombok.md)
-- [jsp 개발환경설정](Develop_Setting/JSP개발환경설정.md)
+- [WAS 개발환경설정](Develop_Setting/TomcatSetting.md)
 
 
 
