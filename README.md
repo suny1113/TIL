@@ -26,6 +26,7 @@
 
 ## MyBatis
 - [MyBatis의 개념과 초기환경설정, 데이터베이스 ACCESS순서](MyBatis/MyBatis&Setting.md)
+- [spring에서의 MyBatis 설정](MyBatis/spring_mybatis.md)
 
 ## Spring Framework
 - [MVC패턴](Spring/MVC.md)
@@ -48,6 +49,11 @@
 ## 개발환경설정
 - [lombok.jar파일](Develop_Setting/lombok.md)
 - [WAS 개발환경설정](Develop_Setting/TomcatSetting.md)
+
+## ETC
+- [xml파일의 구조](ETC/xml.md)
+- [logging이란? Slf4j](ETC/SLF4J.md)
+- [REST와 활용예시](ETC/REST.md)
 
 
 
