@@ -23,6 +23,7 @@
 - [객체지향개념2](Java/javajungsuk_7_oop2.md)
 - [컬렉션 프레임워크](Java/javajungsuk_11_collections.md) 
 - [객체지향의 5대원칙](Java/SOLID.md)
+- [JPA](Java/JPA.md)
 
 ## MyBatis
 - [MyBatis의 개념과 초기환경설정, 데이터베이스 ACCESS순서](MyBatis/MyBatis&Setting.md)
